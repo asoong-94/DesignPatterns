@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A10F1C9A1F9FCA9D001C8D98 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10F1C991F9FCA9D001C8D98 /* main.cpp */; };
+		A10F1CA21F9FCBAE001C8D98 /* Singleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10F1CA11F9FCBAE001C8D98 /* Singleton.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A10F1C961F9FCA9D001C8D98 /* Singleton-Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Singleton-Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10F1C991F9FCA9D001C8D98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A10F1CA01F9FCB3E001C8D98 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		A10F1CA11F9FCBAE001C8D98 /* Singleton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Singleton.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A10F1C991F9FCA9D001C8D98 /* main.cpp */,
+				A10F1CA01F9FCB3E001C8D98 /* Singleton.h */,
+				A10F1CA11F9FCBAE001C8D98 /* Singleton.cpp */,
 			);
 			path = "Singleton-Pattern";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10F1C9A1F9FCA9D001C8D98 /* main.cpp in Sources */,
+				A10F1CA21F9FCBAE001C8D98 /* Singleton.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

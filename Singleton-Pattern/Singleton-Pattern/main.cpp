@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
+#include "Singleton.cpp"
+
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+//    CSingleton *instance;
+//    instance = CSingleton::Instance();
+//    instance->Operation();
+    
     return 0;
 }
