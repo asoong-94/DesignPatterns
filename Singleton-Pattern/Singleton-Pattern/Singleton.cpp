@@ -7,19 +7,26 @@
 //
 
 
-#include "Singleton.h"
 #include <cstddef>
 
-
-// instance is null at first
-CSingleton *CSingleton::DUniqueInstance = nullptr;
-
-// if needed, the singleton class can be instantiated
-CSingleton *CSingleton::Operation() {
-    if (nullptr == DUniqueInstance) {
-        DUniqueInstance = new CSingleton();
+class Singleton {
+    int DValue;
+    static Singleton *singleton_instance;
+    Singleton(int v = 0) {
+        DValue = v;
     }
-    // return singleton instance
-    return DUniqueInstance;
-}
-
+public:
+    void setVal(int x) {
+        DValue = x;
+        return;
+    }
+    int getVal() {
+        return DValue;
+    }
+    static Singleton *instnace() {
+        if (!singleton_instance) {
+            singleton_instance = new Singleton;
+        }
+        return singleton_instance;
+    }
+};
