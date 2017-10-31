@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Adaptee.cpp
+Adaptee.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Adaptee.h
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Adaptee.h
+iostream
+-
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Adapter.cpp
+Adapter.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Adapter.h
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Adapter.h
+Target.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Target.h
+Adaptee.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Adaptee.h
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Target.cpp
+Target.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Target.h
+
+/Users/asoong/CLionProjects/Adapter-Pattern/Target.h
+iostream
+-
+
+/Users/asoong/CLionProjects/Adapter-Pattern/main.cpp
+iostream
+-
+Target.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Target.h
+Adapter.h
+/Users/asoong/CLionProjects/Adapter-Pattern/Adapter.h
+

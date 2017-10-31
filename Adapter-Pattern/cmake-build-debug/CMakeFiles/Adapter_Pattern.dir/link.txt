@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Adapter_Pattern.dir/main.cpp.o CMakeFiles/Adapter_Pattern.dir/Target.cpp.o CMakeFiles/Adapter_Pattern.dir/Adapter.cpp.o CMakeFiles/Adapter_Pattern.dir/Adaptee.cpp.o  -o Adapter_Pattern 

@@ -13,7 +13,7 @@
 using namespace std;
 
 // allocate and initialize Singleton static instnace
-Singleton* Singleton::singleton_instance = 0;
+Singleton* Singleton::singleton_instance;
 
 int main(int argc, const char * argv[]) {
     Singleton* single = Singleton::instnace();
